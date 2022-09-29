@@ -6,7 +6,7 @@ a = -9 b = -3 -> max = -3
 */ 
 
 //Ввод данных
-Console.WriteLine("Программа покажет какое из 2х чисел больше");
+Console.WriteLine("Программа покажет какое из 2х введеных пользователем чисел больше");
 Console.WriteLine("Введите первое число:");
 int userNumber1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите второе число:");
