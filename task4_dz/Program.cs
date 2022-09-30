@@ -12,7 +12,8 @@ int userNumber2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите третье число:");
 int userNumber3 = Convert.ToInt32(Console.ReadLine());
 //Алгоритм
-if(userNumber1 < userNumber2)
-    Console.WriteLine ($"Число {userNumber2} больше числа {userNumber1}");
-    else
-        Console.WriteLine ($"Число {userNumber1} больше числа {userNumber2}");
+int max = userNumber1;
+if(userNumber1 > max) max = userNumber1;
+if(userNumber2 > max) max = userNumber2;
+if(userNumber3 > max) max = userNumber3;
+Console.WriteLine ($"Число {max} максимальное");
