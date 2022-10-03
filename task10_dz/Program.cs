@@ -15,12 +15,11 @@ int userNumber = Convert.ToInt32(Console.ReadLine());
 int Result = 0;
 if (userNumber > 100 && userNumber < 999)
 {   
-    Result = userNumber%10;
-    while(Result > 0)
+    Result = userNumber/10;
+    while(Result > 9)
         {
             Result = Result-10;
         }
-    Result = Result+10;
     Console.WriteLine($"ответ = {Result}");
 }
 else
