@@ -5,6 +5,7 @@
 */
 
 //Ввод данных
+Console.Clear();
 Console.WriteLine("Программа напишет все четные числа от 2 до введеного пользователем числа");
 Console.WriteLine("Введите число:");
 int userNumber = Convert.ToInt32(Console.ReadLine());

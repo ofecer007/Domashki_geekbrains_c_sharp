@@ -6,6 +6,7 @@
 */
 
 //Ввод данных
+Console.Clear();
 Console.WriteLine("Программа напишет является ли число чётным");
 Console.WriteLine("Введите число:");
 int userNumber = Convert.ToInt32(Console.ReadLine());

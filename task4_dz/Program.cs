@@ -4,6 +4,7 @@
 22 3 9 -> 22
 */
 //Ввод данных
+Console.Clear();
 Console.WriteLine("Программа покажет максимальное число из 3х введеных пользователем чисел");
 Console.WriteLine("Введите первое число:");
 int userNumber1 = Convert.ToInt32(Console.ReadLine());
