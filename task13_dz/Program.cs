@@ -22,4 +22,4 @@ if (userNumber > 100 && userNumber < 999)
     Console.WriteLine($"ответ = {Result}");
 }
 else
-Console.WriteLine($"Ошибка!");
+Console.WriteLine($"Третей цифры нет!");

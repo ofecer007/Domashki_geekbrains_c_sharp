@@ -13,7 +13,7 @@ Console.WriteLine("Введите 3х значное число:");
 int userNumber = Convert.ToInt32(Console.ReadLine());
 //Алгоритм
 int Result = 0;
-if (userNumber > 100 && userNumber < 999)
+if (userNumber > 99 && userNumber < 1000)
 {   
     Result = userNumber/10;
     while(Result > 9)
