@@ -3,6 +3,12 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 /!TEST
+/task11
+/task12
+/task14
+/task16
+/task46
+/task49
 # User-specific files
 *.rsuser
 *.suo
