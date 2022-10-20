@@ -3,6 +3,7 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 /!TEST
+/vscode
 /task11
 /task12
 /task14
@@ -11,8 +12,15 @@
 /task18
 /task21
 /task22
+/task24
+/task26
+/task28
 /task46
 /task49
+/task63
+/task65
+/task67
+/task69
 # User-specific files
 *.rsuser
 *.suo
